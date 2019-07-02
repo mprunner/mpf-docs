@@ -13,6 +13,9 @@ code). Usually you map your
 to control service mode. Additionally, you might want to add keys of your
 :doc:`keyboard </config/keyboard>` during development.
 
+Normally you will find the service mode in your python directory (lib\site-packages\mpf\modes)
+There you can adjust the font size and much more
+
 This is an example:
 
 .. code-block:: mpf-config
@@ -22,6 +25,8 @@ This is an example:
        - service
 
    # add tags to your switches
+   # you can also use other switches like your flipper fingers, just add the tags to your flipper fingers
+   
    switches:
        s_door_open:
            number: 1
